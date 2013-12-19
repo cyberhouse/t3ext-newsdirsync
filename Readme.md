@@ -19,9 +19,9 @@ This extension is released under the GNU GPL.
 
 ## Screenshots
 
-![Screenshot 1](https://raw.github.com/georgringer/t3ext-newsdirsync/master/Documentation/Main/Images/screenshot-1.png "Screenshot 1")
+![Screenshot 1](https://raw.github.com/cyberhouse/t3ext-newsdirsync/master/Documentation/Main/Images/screenshot-1.png "Screenshot 1")
 
-![Screenshot 2](https://raw.github.com/georgringer/t3ext-newsdirsync/master/Documentation/Main/Images/screenshot-2.png "Screenshot 2")
+![Screenshot 2](https://raw.github.com/cyberhouse/t3ext-newsdirsync/master/Documentation/Main/Images/screenshot-2.png "Screenshot 2")
 
 
 ## How to use
