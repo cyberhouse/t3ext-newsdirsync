@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>database</type>
+		<description>Language labels for database tables/fields belonging to extension 'newsdirsync'</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="tx_news_domain_model_news.directory_sync">Directory to be synced</label>
+			<label index="error.no_valid_dir">The given directory "%s" is not a valid directory!</label>
+			<label index="error.dir_not_allowed">The given directory "%s" is not enabled for you!</label>
+			<label index="synchronized.header">Directory synchronization</label>
+			<label index="synchronized.no_images_synchronized">No images synchronized from directory "%s"! Either there are no images there or already all synchronized!</label>
+			<label index="synchronized.images_synchronized">%2$s image(s) synchronized from directory "%1$s"!</label>
+		</languageKey>
+
+		<!-- DE -->
+		<languageKey index="de" type="array">
+			<label index="tx_news_domain_model_news.directory_sync">Ordner der synchronisiert wird</label>
+			<label index="error.no_valid_dir">Der angegebene Pfad "%s" ist kein Ordner!</label>
+			<label index="error.dir_not_allowed">Der angegebene Pfad "%s" ist nicht freigegeben!</label>
+			<label index="synchronized.header">Synchronisierung</label>
+			<label index="synchronized.no_images_synchronized">Es wurden keine Bilder vom Ordner "%s" synchronisiert! Entweder sind in diesem keine vorhanden oder es wurden bereits alle Bilder synchronisiert.</label>
+			<label index="synchronized.images_synchronized">%2$s Bild(er) wurden vom Ordner "%1$s" synchronisiert!</label>
+		</languageKey>
+	</data>
+</T3locallang>
