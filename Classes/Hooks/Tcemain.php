@@ -35,12 +35,14 @@ class Tx_Newsdirsync_Hooks_Tcemain {
 	 * @return    void
 	 */
 	public function processDatamap_preProcessFieldArray(&$fieldArray, $table, $id, &$pObj) {
+		if (isset($fieldArray['directory_sync'])) {	
+			$directory = $fieldArray['directory_sync'];
+			unset($fieldArray['directory_sync']);
+		}
+		
 		if (!self::isValidForProcessing($table, $id)) {
 			return;
 		}
-
-		$directory = $fieldArray['directory_sync'];
-		unset($fieldArray['directory_sync']);
 
 		if (empty($directory)) {
 			return;
