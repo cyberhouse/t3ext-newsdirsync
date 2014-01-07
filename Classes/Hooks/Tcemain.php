@@ -51,10 +51,10 @@ class Tx_Newsdirsync_Hooks_Tcemain {
 
 		/** @var Tx_Newsdirsync_Synchronize_Folder $synchronizeService */
 		$synchronizeService = t3lib_div::makeInstance('Tx_Newsdirsync_Synchronize_Folder', $directory, $id);
-//		$synchronizeService->synchronizeDirectoryWithArticle();
+		$synchronizeService->synchronizeDirectoryWithArticle();
 
-		$insertedImages = $synchronizeService->getInsertedImages();
-		self::notifyUser($insertedImages, $directory);
+		$countOfInsertedImages = $synchronizeService->getInsertedImages();
+		self::notifyUser($countOfInsertedImages, $directory);
 	}
 
 
