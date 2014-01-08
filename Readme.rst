@@ -19,12 +19,10 @@ Screenshots
 .. figure:: Resources/Public/Images/screenshot-1.png
 		:alt: Screenshot 1
 
-(`If not being displayed, click here <https://raw.github.com/cyberhouse/t3ext-newsdirsync/master/Resources/Public/Images/screenshot-1.png>`_)
 
 .. figure:: Resources/Public/Images/screenshot-2.png
 		:alt: Screenshot 2
 		
-(`If not being displayed, click here <https://raw.github.com/cyberhouse/t3ext-newsdirsync/master/Resources/Public/Images/screenshot-2.png>`_)
 
 Requirements
 ^^^^^^^^^^^^^^^^
