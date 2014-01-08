@@ -2,8 +2,8 @@
 
 $EM_CONF[$_EXTKEY] = array(
 	'title' => 'News directory sync',
-	'description' => 'Sync media files from directories',
-	'category' => 'fe',
+	'description' => 'Sync media files from a given directory',
+	'category' => 'be',
 	'author' => 'Georg Ringer',
 	'author_email' => 'georg.ringer@cyberhouse.at',
 	'author_company' => 'Cyberhouse GmbH',
