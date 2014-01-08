@@ -48,7 +48,7 @@ Using this extension is simple! Just follow this steps:
 Author
 ==================
 
-Author of this extension is Cyberhouse GmbH - Full service agency www.cyberhouse.at
+Author of this extension is Cyberhouse GmbH - Full service agency https://www.cyberhouse.at
 
 
 Contribution & Bug reports
